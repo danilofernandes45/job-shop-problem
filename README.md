@@ -1,1 +1,5 @@
-# job-shop-problem
+# Flexible Job Shop Scheduling Problem with Transportation Resources
+
+Este repositório consiste no projeto final da disciplina de Pesquisa Operacional 2020.1. Este projeto consiste na aplicação de uma meta-heurística híbrida que combina Iterated Local Search, Multistart Search e Randomized Variable Neigborhood Descent para solucionar o Flexible Job Shop Scheduling Problem with Transportation Resources. 
+
+Neste problema há um conjunto de tarefas a serem executadas, máquinas e robôs transportadores. Cada tarefa é dividida em um conjunto de operações que devem ser executadas em uma ordem pré-determinada e cada operação pode ser executada em um certo conjunto de máquinas, demandando uma certa quantidade de tempo para ser executada e que pode variar a depender da máquina. Como operações consecutivas de uma mesma tarefa podem ser executadas em máquinas distintas, fica a cargo dos robôs transportadores realizarem o deslocamento da tarefa de uma máquina à outra. O objetivo é escalonar as operações nas máquinas e os transportes necessários aos robôs de modo a minimizar o tempo necessário para concluir todas as tarefas.
